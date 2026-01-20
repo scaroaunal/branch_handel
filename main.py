@@ -1,5 +1,7 @@
+from horarios import hora
+
 def run():
-    print('python es bueno')
+    print(f'es: {hora()}')
 
 
 if __name__=='__main__':
